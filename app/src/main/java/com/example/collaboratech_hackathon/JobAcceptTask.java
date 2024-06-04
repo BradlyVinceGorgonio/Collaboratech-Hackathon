@@ -24,11 +24,11 @@ public class JobAcceptTask extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_job_accept_task);
 
-        ImageButton btn = (ImageButton)findViewById(R.id.imageButton);
+        Button button = findViewById(R.id.acceptTask);
         //Intent bkbutton = new Intent();
-        btn.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) { 
                 startActivity(new Intent(JobAcceptTask.this, homefrag.class));
             }
         });
