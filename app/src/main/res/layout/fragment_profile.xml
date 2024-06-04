@@ -76,10 +76,10 @@
 
         <Button
             android:id="@+id/logoutButton"
-            android:layout_width="wrap_content"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="132dp"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="@color/brown"
             android:drawableLeft="@drawable/interface_essential_signout_logout__streamline_pixel"
             android:text="Logout"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -164,7 +164,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="STI Global City "
+                android:text="Taguig City "
                 android:textSize="20dp"></TextView>
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
