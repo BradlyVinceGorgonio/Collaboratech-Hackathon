@@ -39,6 +39,8 @@ public class JobAcceptTask extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
         Intent intent = getIntent();
 
 
@@ -51,6 +53,10 @@ public class JobAcceptTask extends AppCompatActivity {
         TextView TITLE = findViewById(R.id.taskTitle);
         TextView LOCATION = findViewById(R.id.address);
         TextView PRICE = findViewById(R.id.taskPrice);
+
+        TITLE.setText(title);
+        LOCATION.setText(location);
+        PRICE.setText(price);
 
 
 
