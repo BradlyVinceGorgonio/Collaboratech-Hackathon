@@ -101,7 +101,7 @@
                 android:id="@+id/textInputLayout4"
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
                 android:layout_width="290dp"
-                android:layout_height="55dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="5dp"
