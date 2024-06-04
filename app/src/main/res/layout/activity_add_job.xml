@@ -34,7 +34,9 @@
                     android:text="Continue"
                     android:textColor="@color/white"
                     android:textSize="18dp"
-                    android:textStyle="bold"></Button>
+                    android:textStyle="bold">
+
+                </Button>
             </LinearLayout>
         </ScrollView>
 
