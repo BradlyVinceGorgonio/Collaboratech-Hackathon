@@ -21,6 +21,18 @@
                 android:orientation="vertical">
 
 
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/backicon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.077"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageButton>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -99,6 +111,26 @@
                         tools:ignore="TextSizeCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                    android:layout_width="320dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="16dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/taskDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint=" Description"
+                        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 1234567890"
+                        android:inputType="textPostalAddress"
+                        android:textSize="13dp"
+                        tools:ignore="TextSizeCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <ImageView
                     android:id="@+id/imageupload"
