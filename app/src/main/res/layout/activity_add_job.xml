@@ -133,7 +133,9 @@
                     android:text="Post Task"
                     android:textColor="@color/white"
                     android:textSize="18dp"
-                    android:textStyle="bold"></Button>
+                    android:textStyle="bold">
+
+                </Button>
             </LinearLayout>
         </ScrollView>
 

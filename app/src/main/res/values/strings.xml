@@ -3,4 +3,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="wallet_title">wallet_title</string>
+    <string name="release_amount">Release Amount</string>
+    <string name="input_amount">Input Amount</string>
+    <string name="hint">hint</string>
+    <string name="bank_type">Bank Type</string>
+    <string name="bank">bank</string>
+    <string name="user">User:</string>
+    <string name="name">name</string>
+    <string name="bank_amount">Bank Amount</string>
+    <string name="amount">amount</string>
+    <string name="todo">TODO</string>
+    <string name="cardimage">cardimage</string>
 </resources>
