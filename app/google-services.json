@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299949554491",
+    "project_id": "collaboratech-1328a",
+    "storage_bucket": "collaboratech-1328a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299949554491:android:7e14a7ad3783fc802b551e",
+        "android_client_info": {
+          "package_name": "com.example.collaboratech_hackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQZ4D6A1LHB4D-7YgcT1K8m9eWVDdvOYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
