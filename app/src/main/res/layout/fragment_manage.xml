@@ -95,6 +95,34 @@
             ></TextView>
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:textAlignment="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="20dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="need to babysit 1 year old\nbabyy 5hours only may lakad\n lang me need may taga alaga muna"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            ></TextView>
+    </LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -114,7 +142,7 @@
         android:clickable="false"
         android:focusable="false"
         android:layout_gravity="center"
-        android:text="P 1,000"></EditText>
+        android:text="P 5000"></EditText>
 
 
     <Button
