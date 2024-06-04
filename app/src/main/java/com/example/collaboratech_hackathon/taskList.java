@@ -6,17 +6,18 @@ public class taskList {
 
     String title;
     String price;
-    String description;
     String address;
 
     int image;
 
-    public taskList(String title, String price, String description, String address, int image) {
+    String uid;
+
+    public taskList(String title, String price, String address, int image, String uid) {
         this.title = title;
         this.price = price;
-        this.description = description;
         this.address = address;
         this.image = image;
+        this.uid = uid;
     }
 
     public String getTitle() {
@@ -35,14 +36,6 @@ public class taskList {
         this.price = price;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public String getAddress() {
         return address;
     }
@@ -57,5 +50,13 @@ public class taskList {
 
     public void setImage(int image) {
         this.image = image;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
     }
 }

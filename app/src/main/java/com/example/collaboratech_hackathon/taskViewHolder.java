@@ -6,6 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class taskViewHolder extends RecyclerView.ViewHolder {
@@ -14,6 +15,7 @@ public class taskViewHolder extends RecyclerView.ViewHolder {
     TextView price;
     TextView address;
     ImageView imageView;
+    CardView cardView;
     public taskViewHolder(@NonNull View itemView) {
         super(itemView);
 
@@ -21,5 +23,6 @@ public class taskViewHolder extends RecyclerView.ViewHolder {
         price = itemView.findViewById(R.id.jobPrice);
         imageView = itemView.findViewById(R.id.jobimage);
         address = itemView.findViewById(R.id.jobAddress);
+        cardView = itemView.findViewById(R.id.cardviews);
     }
 }

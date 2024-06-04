@@ -27,24 +27,30 @@ public class addJob extends AppCompatActivity {
 
 
     public void addTask(String title, String description, String location, String price) {
-
         Map<String, Object> task = new HashMap<>();
         task.put("title", title);
         task.put("description", description);
         task.put("location", location);
         task.put("price", price);
-        db = FirebaseFirestore.getInstance();
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
 
         db.collection("tasks")
                 .add(task)
                 .addOnSuccessListener(documentReference -> {
-                    Log.d("PAULAA", "addTask: " + documentReference.getId());
-                    System.out.println("DocumentSnapshot added with ID: " + documentReference.getId());
+                    String uid = documentReference.getId();
+                    Log.d("PAULAA", "DocumentSnapshot added with ID: " + uid);
+
+                    // Update the document with its UID
+                    documentReference.update("uid", uid)
+                            .addOnSuccessListener(aVoid -> Log.d("PAULAA", "Document UID updated successfully"))
+                            .addOnFailureListener(e -> Log.d("PAULAA", "Error updating document UID: ", e));
                 })
                 .addOnFailureListener(e -> {
-                    Log.d("PAULAA", "Error adding document: " + e);
-                    System.err.println("Error adding document: " + e);
+                    Log.d("PAULAA", "Error adding document: ", e);
                 });
+        Intent intent = new Intent(addJob.this, MainActivity.class);
+        startActivity(intent);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
