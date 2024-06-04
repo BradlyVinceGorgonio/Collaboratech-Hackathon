@@ -111,8 +111,8 @@
                     android:id="@+id/address"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:hint=" Address"
-                    android:inputType="textPostalAddress"
+                    android:hint=" Description"
+                    android:inputType="textCapSentences|textAutoCorrect|textMultiLine"
                     android:textSize="13dp"
                     tools:ignore="TextSizeCheck" />
             </com.google.android.material.textfield.TextInputLayout>
