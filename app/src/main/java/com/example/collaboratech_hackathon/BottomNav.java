@@ -52,12 +52,12 @@ public class BottomNav extends AppCompatActivity {
             else if(menuItem.getItemId() == R.id.wallet){
                 fragment = new WalletFrag();
             }
-            else if(menuItem.getItemId() == R.id.profile){
-               // fragment = new ProfileFrag();
-            }
-            else if(menuItem.getItemId() == R.id.profile){
-                //fragment = new ManageFrag();
-            }
+//            else if(menuItem.getItemId() == R.id.profile){
+//               // fragment = new ProfileFrag();
+//            }
+//            else if(menuItem.getItemId() == R.id.profile){
+//                //fragment = new ManageFrag();
+//            }
             else{
                 return false;
             }
