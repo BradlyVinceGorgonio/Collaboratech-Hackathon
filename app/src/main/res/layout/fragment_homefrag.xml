@@ -24,20 +24,35 @@
                 android:orientation="vertical">
 
 
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:backgroundTint="@color/dark">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/logo">
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hello, user0113"
-                    android:textStyle="italic|bold"
-                    android:textSize="20dp"
-                    android:layout_marginTop="10dp"
+                    android:text="Tasks"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginTop="30dp"
                     android:layout_marginLeft="20dp">
                 </TextView>
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/taskAddRecycler"
                     android:layout_width="match_parent"
                     android:layout_height="600dp"
-                    android:layout_marginTop="100dp">
+                    android:layout_marginTop="20dp">
 
                 </androidx.recyclerview.widget.RecyclerView>
 

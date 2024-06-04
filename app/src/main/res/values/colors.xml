@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="lblue">#03A9F4</color>
     <color name="green">#45FF4C</color>
+    <color name="lightbrown">#faf4d3</color>
+    <color name="brown">#f5cf2f</color>
+
+    <color name="dark">#0c1618</color>
 </resources>

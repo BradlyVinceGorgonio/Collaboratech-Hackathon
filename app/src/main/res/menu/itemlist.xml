@@ -9,14 +9,14 @@
     <item
         android:id="@+id/wallet"
         android:title="Wallet"
-        android:icon="@drawable/homeic"/>
+        android:icon="@drawable/walletic"/>
     <item
         android:id="@+id/profile"
         android:title="Profile"
-        android:icon="@drawable/homeic"/>
+        android:icon="@drawable/personic"/>
     <item
         android:id="@+id/manage"
         android:title= "Manage"
-        android:icon="@drawable/homeic"/>
+        android:icon="@drawable/manageic"/>
 
 </menu>
